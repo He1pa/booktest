@@ -12,7 +12,7 @@ on:
     types:
     - closed
 permissions:
-  actions: write
+  contents: write
 jobs:
   deploy:
     runs-on: ubuntu-22.04
