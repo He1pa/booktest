@@ -11,6 +11,8 @@ on:
       - master
     types:
     - closed
+permissions:
+  actions: write
 jobs:
   deploy:
     runs-on: ubuntu-22.04
