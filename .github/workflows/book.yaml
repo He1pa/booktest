@@ -31,5 +31,5 @@ jobs:
           personal_token: ${{ secrets.DEPLOY_KEY }}
           publish_dir: ./book
           publish_branch: pages
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          # user_name: 'github-actions[bot]'
+          # user_email: 'github-actions[bot]@users.noreply.github.com'
